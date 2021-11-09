@@ -1,0 +1,42 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    'object-fit': (
+      property: object-fit,
+      class: object,
+      values: (
+        contain,
+        cover,
+        fill,
+        none,
+        scale-down,
+      ),
+    ),
+    'font-family': (
+      property: font-family,
+      class: font,
+      values: (
+        sans: $font-family-sans-serif,
+        display: $font-family-display,
+      ),
+    ),
+    "text-align": (
+      responsive: true,
+      property: text-align,
+      class: text,
+      values: (
+        start: left,
+        end: right,
+        center: center,
+        justify: justify
+      )
+    ),
+    "font-size": (
+      responsive: true,
+      rfs: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes
+    ),
+  )
+);
