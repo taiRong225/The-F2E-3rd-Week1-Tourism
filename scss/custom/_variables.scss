@@ -5,6 +5,7 @@ $primary: #7F977B;
 $secondary: #1E1E1E;
 $info: #BEA363;
 $danger: #FF725E;
+$light:#F9F9F9;
 $dark: #2F2F2F;
 
 // Spacing
@@ -27,6 +28,7 @@ $spacers: (
   11: $spacer * 2.75,
   12: $spacer * 3,
   14: $spacer * 3.5,
+  15: $spacer * 3.75,
   16: $spacer * 4,
   20: $spacer * 5
 );
