@@ -237,7 +237,7 @@ sup {
 
 a {
   color: #7F977B;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -3748,7 +3748,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #646464;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -4392,7 +4391,7 @@ fieldset:disabled .btn {
 .btn-link {
   font-weight: 400;
   color: #7F977B;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:hover {
@@ -4722,7 +4721,6 @@ fieldset:disabled .btn {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -4940,7 +4938,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #7F977B;
-  text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -5078,7 +5075,6 @@ fieldset:disabled .btn {
   padding-bottom: -0.4375rem;
   margin-right: 1rem;
   font-size: calc(1.35rem + 1.2vw);
-  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -6059,7 +6055,6 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   color: #7F977B;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -6402,7 +6397,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
