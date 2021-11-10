@@ -1,0 +1,15 @@
+/* 下方切換按鈕 */
+.carousel-indicators button {
+    border-radius: 50%;
+}
+
+/* 文字水平垂直居中 */
+.carousel-caption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
