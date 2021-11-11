@@ -5,3 +5,20 @@
     font-size: 16px;
     margin-left: 8px;
 }
+
+// 卡片項目
+.card-item {
+    border-radius: 12px;
+
+    img {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+}
+@media (max-width: 768px){
+    .card-item {
+        img {
+            border-radius: 12px;
+        }
+    }
+}

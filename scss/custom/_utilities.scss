@@ -38,5 +38,27 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
+    "background-color": (
+      responsive: true,
+      property: background-color,
+      class: bg,
+      local-vars: (
+        "bg-opacity": 1
+      ),
+      values: map-merge(
+        $utilities-bg-colors,
+        (
+          "transparent": transparent
+        )
+      )
+    ),
+    "border": (
+      responsive: true,
+      property: border,
+      values: (
+        null: $border-width solid $border-color,
+        0: 0,
+      )
+    ),
   )
 );
