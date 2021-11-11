@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣走走 Tai Walk</title>
+
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-6">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="images/Logo-desktop.png" class="d-none d-md-block" width="240" height="32"
+                        alt="Logo-desktop">
+                    <img src="images/Logo-mobile.png" class="d-block d-md-none" width="118" height="30"
+                        alt="Logo-mobile">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0 ms-5">探索景點</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0 ms-5">節慶活動</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0 ms-5">品嚐美食</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- breadcrumb 麵包屑 -->
+    <div class="pt-14 pb-7">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">探索景點</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 搜尋表單 -->
+    <div class="mb-6 mb-md-15">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-3 mb-2 mb-md-0">
+                        <select class="form-select py-3 px-8">
+                            <option value="all" selected>全部縣市</option>
+                            <option value="taipei">臺北市</option>
+                            <option value="newtaipei">新北市</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-0">
+                        <select class="form-select py-3 px-8">
+                            <option value="all" selected>全部主題</option>
+                            <option value="自然風景類">自然風景類</option>
+                            <option value="觀光工廠類">觀光工廠類</option>
+                            <option value="遊憩類">遊憩類</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                        <input type="text" class="form-control py-3 px-8" placeholder="你想去哪裡？請輸入關鍵字">
+                    </div>
+                    <div class="col-12 col-md-2 mb-2 mb-md-0">
+                        <a href="#" class="btn bg-primary text-white w-100 py-3">
+                            <i class="fa fa-search me-5"></i>搜尋
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Topic 熱門主題 -->
+    <div class="mt-8">
+        <div class="container">
+            <div class="d-flex align-items-end mb-3">
+                <h2 class="fs-4 fs-md-lg fw-light text-secondary mb-0 me-2">熱門主題</h2>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-1.png" class="w-100" alt="spots-topic-1">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">自然風景類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-2.png" class="w-100" alt="spots-topic-2">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">觀光工廠類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-3.png" class="w-100" alt="spots-topic-3">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">遊憩類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-4.png" class="w-100" alt="spots-topic-4">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">休閒農業類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-5.png" class="w-100" alt="spots-topic-5">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">生態類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-6.png" class="w-100" alt="spots-topic-6">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">溫泉類
+                    </h4>
+                </div>
+                <div class="col position-relative mb-4">
+                    <img src="images/spots-topic-7.png" class="w-100" alt="spots-topic-7">
+                    <h4 class="position-absolute top-50 start-50 translate-middle fs-6 fs-md-4 fw-bold text-white">古蹟類
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer 頁尾 -->
+    <footer class="fs-sm text-white text-center py-5">
+        <p>#The F2E 3rd Week01 #Breakfast</p>
+    </footer>
+</body>
+
+</html>
