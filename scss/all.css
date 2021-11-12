@@ -16879,6 +16879,30 @@ fieldset:disabled .btn {
           align-items: center;
 }
 
+.navbar-light .navbar-toggler {
+  border: 0px;
+  padding: 8px 0 6px 0;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-light .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
+  background-image: url("/images/menu-mobile-close.png");
+}
+
+.navbar-light .navbar-toggler[aria-expanded=false] .navbar-toggler-icon {
+  background-image: url("/images/menu-mobile.png");
+}
+
+.navbar-light .navbar-toggler-icon {
+  width: 50px;
+  height: 50px;
+}
+
 footer {
   background-color: #65895F;
   margin-top: 120px;
