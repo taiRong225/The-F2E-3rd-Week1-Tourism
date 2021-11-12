@@ -7675,8 +7675,8 @@ fieldset:disabled .btn {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   padding: 0;
   margin-right: 6px;
   margin-left: 6px;
