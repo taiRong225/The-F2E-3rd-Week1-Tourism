@@ -16914,6 +16914,12 @@ footer {
   margin-top: 120px;
 }
 
+@media (max-width: 768px) {
+  footer {
+    margin-top: 72px;
+  }
+}
+
 .more::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
