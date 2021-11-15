@@ -16903,6 +16903,11 @@ fieldset:disabled .btn {
   height: 50px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #BEA363;
+  padding-bottom: 5px;
+}
+
 .btn-primary:hover {
   background-color: #65895F;
   color: white;
