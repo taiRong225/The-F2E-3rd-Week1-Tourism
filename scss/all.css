@@ -16891,11 +16891,11 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
-  background-image: url("/images/menu-mobile-close.png");
+  background-image: url("../images/menu-mobile-close.png");
 }
 
 .navbar-light .navbar-toggler[aria-expanded=false] .navbar-toggler-icon {
-  background-image: url("/images/menu-mobile.png");
+  background-image: url("../images/menu-mobile.png");
 }
 
 .navbar-light .navbar-toggler-icon {

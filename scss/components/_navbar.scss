@@ -10,10 +10,10 @@
         }
     }
     .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
-        background-image: url("/images/menu-mobile-close.png");
+        background-image: url("../images/menu-mobile-close.png");
     }
     .navbar-toggler[aria-expanded=false] .navbar-toggler-icon {
-        background-image: url("/images/menu-mobile.png");
+        background-image: url("../images/menu-mobile.png");
     }
     .navbar-toggler-icon {
         width: 50px;
