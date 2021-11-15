@@ -7643,11 +7643,11 @@ fieldset:disabled .btn {
   } ]
 } */
 .carousel-control-prev-icon {
-  background-image: url("../../images/Arrow-Left.png");
+  background-image: url("../images/Arrow-Left.png");
 }
 
 .carousel-control-next-icon {
-  background-image: url("../../images/Arrow-Right.png");
+  background-image: url("../images/Arrow-Right.png");
 }
 
 .carousel-indicators {
