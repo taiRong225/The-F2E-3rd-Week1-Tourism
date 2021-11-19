@@ -13,11 +13,8 @@
     img {
         border-top-left-radius: 12px;
         border-bottom-left-radius: 12px;
-    }
-}
-@media (max-width: 768px){
-    .card-item {
-        img {
+
+        @include mobile{
             border-radius: 12px;
         }
     }
