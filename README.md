@@ -1,4 +1,4 @@
-# The-F2E-3rd-week1-tourist
+# The-F2E-3rd-Week1-Tourism
 ## About Project
 [第三屆] The F2E 前端＆UI 修煉精神時光屋
 
