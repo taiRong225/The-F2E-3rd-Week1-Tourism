@@ -12,9 +12,8 @@
 
 ## 學習重點
 1. Bootstrap 5 切版
-2. Angular (待完成)
+2. Angular
 3. TDX API - Tourism 觀光
 	- 景點
 	- 餐點
-	- 旅宿
 	- 活動
