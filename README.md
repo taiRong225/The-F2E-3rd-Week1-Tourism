@@ -7,7 +7,7 @@
 活動時間：2021/11/08 ～ 2021/11/29
 
 ## Project Link 作品連結
-- [作品展示](https://tairong225.github.io/The-F2E-3rd-week1-tourist/index.html "作品展示")
+- [作品展示](https://tairong225.github.io/The-F2E-3rd-Week1-Tourism/index.html "作品展示")
 - [設計稿](https://2021.thef2e.com/users/6296427084285739247?week=1&type=1 "設計稿")
 
 ## 學習重點
